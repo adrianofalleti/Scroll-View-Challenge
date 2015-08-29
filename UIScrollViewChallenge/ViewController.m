@@ -26,10 +26,11 @@
     // poi impostiamo il view controller come delegato in modo tale che possa eseguire il metodo del protocollo UIScrollViewDelegate
     self.scrollView.delegate = self;
     // qui impostiamo il maximumZoomScale
-    self.scrollView.maximumZoomScale = 2.0;
+    self.scrollView.maximumZoomScale = 3.0;
     // qui il minimumZoomScale
     self.scrollView.minimumZoomScale = 1.0;
-    
+    // questa proprietà fa si che l'immagine sia divisa in tante pagine come succede nella home di iOS.Essndo impostata su false non vedremo questo effetto sulla nostra applicazione
+    self.scrollView.pagingEnabled = false;
     
     
     
