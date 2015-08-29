@@ -17,11 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //quindi qui creiamo l'image view
+    self.globalImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"worldMap.jpeg"]];
+    // qui impostiamo il contentSize(cioè la taglia del contenuto nel quale operà la scrollview) della scrollview uguale alla taglia della cornice dell'imageView
+    self.scrollView.contentSize = self.globalImageView.frame.size;
+    // qui rendiamo l'imageView subview della scrollView
+    [self.scrollView addSubview:self.globalImageView];
+    // poi impostiamo il view controller come delegato in modo tale che possa eseguire il metodo del protocollo UIScrollViewDelegate
+    self.scrollView.delegate = self;
+    // qui impostiamo il maximumZoomScale
+    self.scrollView.maximumZoomScale = 2.0;
+    // qui il minimumZoomScale
+    self.scrollView.minimumZoomScale = 1.0;
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {// questo metodo ritorna lA view nella quale la scrollView può zoomare e noi chiaramente RITORNIAMO l'imageView
+    return self.globalImageView;
 }
 
 @end

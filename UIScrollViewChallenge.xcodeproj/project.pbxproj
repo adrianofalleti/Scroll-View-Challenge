@@ -14,6 +14,7 @@
 		FFD54F501B91D10B00B2F9B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD54F4F1B91D10B00B2F9B7 /* Images.xcassets */; };
 		FFD54F531B91D10B00B2F9B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD54F511B91D10B00B2F9B7 /* LaunchScreen.xib */; };
 		FFD54F5F1B91D10B00B2F9B7 /* UIScrollViewChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD54F5E1B91D10B00B2F9B7 /* UIScrollViewChallengeTests.m */; };
+		FFD54F691B91D22A00B2F9B7 /* worldMap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFD54F681B91D22A00B2F9B7 /* worldMap.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FFD54F581B91D10B00B2F9B7 /* UIScrollViewChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD54F5D1B91D10B00B2F9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFD54F5E1B91D10B00B2F9B7 /* UIScrollViewChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewChallengeTests.m; sourceTree = "<group>"; };
+		FFD54F681B91D22A00B2F9B7 /* worldMap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = worldMap.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		FFD54F421B91D10B00B2F9B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFD54F681B91D22A00B2F9B7 /* worldMap.jpeg */,
 				FFD54F431B91D10B00B2F9B7 /* Info.plist */,
 				FFD54F441B91D10B00B2F9B7 /* main.m */,
 			);
@@ -202,6 +205,7 @@
 				FFD54F4E1B91D10B00B2F9B7 /* Main.storyboard in Resources */,
 				FFD54F531B91D10B00B2F9B7 /* LaunchScreen.xib in Resources */,
 				FFD54F501B91D10B00B2F9B7 /* Images.xcassets in Resources */,
+				FFD54F691B91D22A00B2F9B7 /* worldMap.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
